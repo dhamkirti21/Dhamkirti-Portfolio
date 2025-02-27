@@ -23,7 +23,7 @@ const ResumeContact = () => {
                         download
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-semibold rounded-lg transition-transform hover:scale-105 shadow-md"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-stone-500 to-stone-700 hover:from-stone-600 hover:to-stone-800 text-white font-semibold rounded-lg transition-transform hover:scale-105 shadow-md"
                     >
                         <MdDownload className="text-xl animate-bounce" /> Download PDF
                     </a>

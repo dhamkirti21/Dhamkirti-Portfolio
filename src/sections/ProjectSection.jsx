@@ -2,22 +2,22 @@ const projects = [
     {
         title: "Portfolio Website",
         description: "A personal portfolio built using React and Tailwind CSS.",
-        link: "#",
+        link: "https://dhamkirti-portfolio.vercel.app/",
     },
     {
         title: "InstaPedia",
         description: "Full-stack Social Media platform with Firebase.",
-        link: "#",
+        link: "https://github.com/dhamkirti21/SocialMediaApplication/",
     },
     {
         title: "Weather App",
         description: "Fetches live weather data using OpenWeather API.",
-        link: "#",
+        link: "https://weather-application-gamma-beige.vercel.app/",
     },
     {
         title: "SpeakUP App",
         description: "A Open Platform to Discuss City Problems Anonomusly",
-        link: "#",
+        link: "https://github.com/dhamkirti21/SPEAKUP/",
     },
 
 ];
@@ -47,7 +47,7 @@ const ProjectSection = () => {
                             href={project.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="inline-block mt-4 px-4 py-2 bg-blue-600 hover:bg-blue-500 rounded-md text-white font-semibold transition"
+                            className="inline-block mt-4 px-4 py-2 bg-stone-600 hover:bg-stone-900 rounded-md text-white font-semibold transition"
                         >
                             View Project
                         </a>
